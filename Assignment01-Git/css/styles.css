@@ -1,0 +1,49 @@
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 250px;
+    height: 45px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+  } th, td {
+    background-color: white;
+  }
+
+body {
+    background-color: rgb(178, 134, 69);
+    text-align: center;
+  }
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  h2{
+    color: rgb(48, 5, 5);
+  }
+
+  img {
+    width :500px;
+    height: 350px;
+  }
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 25px;
+    color: rgb(228, 232, 236);
+  }
+  ul{
+    font-size: 25px;
+    color: bisque;
+  }
+  a{
+    font-size: 30px;
+    color: rgb(139, 31, 42);
+  }
+
+
+  
