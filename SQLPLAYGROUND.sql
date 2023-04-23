@@ -1,0 +1,15 @@
+SELECT * FROM lv1_tracks;
+SELECT * FROM lv1_tracks LIMIT 10;
+SELECT name, album, artist FROM lv1_tracks;
+SELECT name, album, artist FROM lv1_tracks LIMIT 10;
+SELECT * FROM lv1_tracks ORDER BY name ASC;
+SELECT * FROM lv1_tracks ORDER BY name DESC;
+SELECT * FROM lv1_tracks ORDER BY name ASC;
+SELECT * FROM lv1_tracks ORDER BY name DESC;
+SELECT * FROM lv1_tracks ORDER BY name DESC LIMIT 10;
+SELECT * FROM lv1_tracks WHERE duration > 200000;
+SELECT * FROM lv1_tracks WHERE duration > 200000 ORDER BY name ASC;
+SELECT * FROM lv1_tracks WHERE duration > 200000 and duration < 300000;
+SELECT * FROM lv1_tracks WHERE duration > 280000 and duration < 300000 ORDER BY name DESC LIMIT 10;
+SELECT * FROM lv1_tracks WHERE duration > 280000 and duration < 300000 ORDER BY name DESC LIMIT 10 year = 2000;
+SELECT * FROM lv1_tracks WHERE popularity >= 40 and explicit = 1;
